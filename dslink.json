@@ -1,0 +1,17 @@
+{
+  "name": "dslink-javascript-feed",
+  "version": "1.0.0",
+  "description": "A DSLink for subscribing to RSS/Atom/RDF feeds.",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "getDependencies": [
+    "node install.js"
+  ],
+  "configs": {
+    "broker": {
+      "type": "url"
+    }
+  }
+}
